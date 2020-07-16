@@ -1,6 +1,6 @@
 # DropWizard Authentication (and questions)
 
-How to start the KshHomepage application
+How to start the application
 ---
 
 1. Run `mvn clean install` to build your application
