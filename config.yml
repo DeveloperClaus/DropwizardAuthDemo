@@ -1,0 +1,14 @@
+server:
+  applicationContextPath: /auth
+
+logging:
+  level: INFO
+  loggers:
+    org.example.dropwizard: DEBUG
+
+database:
+  driverClass: org.h2.Driver
+  url: jdbc:h2:./target/authdb
+  user: sa
+  password: sa
+  initializationQuery: DROP TABLE IF EXISTS DEMO_USER;
