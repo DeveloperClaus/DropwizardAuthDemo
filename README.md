@@ -22,3 +22,9 @@ However I hope this example is much easier for demonstration purposes, as e.g. i
 What I want to achieve in  my application:
 * Do form based authentication (instead of popup window by browser)
 * Do a logout
+
+When you start the application and go to the url `http://localhost:8081/auth/healthcheck` in your browser, then you can see a list of users on the left. Furthermore you have 2 ways to do the login. I would prefer the first one to work, but right now only the second does. Use any of the users shown on the left of the page, no passwork is needed.
+If you then use the reload button on the bottom of the page, you can see that the user you used for the login is lost if you did log in with the way I would like to do it.
+If however you do the login (the second way, which works), then you can use the logout button, but you will stay logged in.
+
+Any help is very much appreciated, see my question on Stackoverflow. Please answer there, possibly in addition with a proposed solution here.
